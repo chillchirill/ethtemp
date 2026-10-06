@@ -1,0 +1,8 @@
+node_modules/
+frontend/dist/
+blockchain/artifacts/
+blockchain/cache/
+.env
+.env.*
+!.env.example
+*.log

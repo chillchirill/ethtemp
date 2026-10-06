@@ -1,0 +1,17 @@
+{
+  "name": "blockchain",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "compile": "hardhat compile",
+    "node": "hardhat node --hostname 127.0.0.1",
+    "deploy": "hardhat run deploy.js",
+    "deploy:artifact": "node deploy.js",
+    "wallet": "node wallet.js"
+  },
+  "dependencies": { 
+    "ethers": "6.17.0", 
+    "hardhat": "3.18.1"
+  },
+  "devDependencies": {  }
+}

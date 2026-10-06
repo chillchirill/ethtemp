@@ -1,0 +1,19 @@
+{
+  "name": "contract-console",
+  "private": true,
+  "type": "module",
+  "workspaces": ["frontend", "blockchain"],
+  "engines": {
+    "node": ">=22.13.0"
+  },
+  "scripts": {
+    "dev": "npm run dev -w frontend",
+    "build": "npm run build -w frontend",
+    "compile": "npm run compile -w blockchain",
+    "node": "npm run node -w blockchain",
+    "deploy": "npm run deploy -w blockchain",
+    "deploy:artifact": "npm run deploy:artifact -w blockchain",
+    "wallet": "npm run wallet -w blockchain",
+    "test": "npm run test -w frontend"
+  }
+}
